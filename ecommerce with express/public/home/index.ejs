@@ -1,0 +1,67 @@
+<%- include('../partial/header.ejs') %>
+
+
+<div class="blur toggle" id="blurme"></div>
+<!-- carasol starts  -->
+<div class="mh-75 mw-100">
+  <div id="myCarousel" class="carousel slide mh-75 mw-100" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner mh-75 mw-100">
+
+      
+
+      <div class="item active mh-75 mw-100">
+        <img src="https://images.pexels.com/photos/7682744/pexels-photo-7682744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Bali" style="width:100%; height: 84vh; background-position: center bottom; object-fit: cover; ">
+        <div class="carousel-caption">
+          <h3>Bali</h3>
+          <p>Happiness is holding tickets that say Bali.</p>
+        </div>
+      </div>
+    
+      <div class="item mh-75 mw-100">
+        <img src="https://images.pexels.com/photos/4388158/pexels-photo-4388158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sahara desert" style="width:100%; height: 84vh; background-position: center bottom; object-fit: cover; ">
+        <div class="carousel-caption">
+          <h3>Sahara desert</h3>
+          <p>Tans fade, but Sahara memories last forever.</p>
+        </div>
+      </div>
+
+      <div class="item mh-75 mw-100">
+        <img src="https://images.pexels.com/photos/3293192/pexels-photo-3293192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Maldives" style="width:100%; height: 84vh; background-position: center bottom; object-fit: cover; ">
+        <div class="carousel-caption">
+          <h3>Maldives</h3>
+          <p>Maldives is more than a place</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!-- carasol ends -->
+<h2 style="text-align: center;">➖Book Flight ✈</h2>
+
+<div id="boy">
+</div>
+<button style="background-color: #EA8F1C; position: fixed; bottom: 10px; right: 6px; z-index: 2; border: none; color: #f4f4f4; padding: 0  20px;" id="ShowMore">more</button>
+<script src="../main.js"></script>
+
+<%- include('../partial/footer.ejs') %>

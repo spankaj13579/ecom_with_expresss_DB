@@ -1,0 +1,65 @@
+<%- include('../partial/header.ejs') %>
+
+<br>
+<br><br>  
+
+<!-- <form class="m-5" action="/login" method="post">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+    </div>
+    <button type="submit" class="btn btn-primary mt-4">Login</button>
+    <a href="/login/forgetPassword" style="padding-left: 10px; text-decoration: none;">forget password?</a>
+  </form> -->
+<style>
+@media screen and (max-width: 980px)
+{
+    .fonmcontainer{
+        display: block;
+        background-color: #1cbaea;
+        height: 100vh;
+    }
+    .stform
+        {
+          
+          margin-bottom: 50px;
+        }
+        .fonmcontainerImg
+        {
+          width: 50%;
+          height: 20vh;
+        }
+}
+</style>
+
+  <div class="container fonmcontainer" style="height:90vh">
+    <div class="row row align-items-center">
+      <form class="col mr-5 stform" action="/login" method="post">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+        </div>
+        <button type="submit" class="btn btn-primary mt-4">Login</button>
+        <a href="/login/forgetPassword" style="padding-left: 10px; text-decoration: none;">forget password?</a>
+      </form>
+      <img src="https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"  class="col ml-5 fonmcontainerImg" style="display: block;
+      max-width: 100%;
+      height: 90vh; object-fit: cover;"></img>
+    </div>
+    
+  </div>
+  
+
+
+
+<%- include('../partial/footer.ejs') %>
